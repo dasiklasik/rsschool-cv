@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+    width: 100%;
+}
+
+header {
+    background: #242240;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__portrait {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.portrait {
+    width: 300px;
+}
+
+.header_content {
+    width: 500px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header_content h1 {
+    font-size: 50px;
+}
+
+.header_content p {
+    text-transform: uppercase;
+}
+
+.header__contacts {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header__contacts span {
+    font-weight: bold;
+}
+
+.header__contacts p {
+    text-transform: none;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    color: #242240;
+}
+
+.skills__items {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 30px auto 100px;
+}
+
+.skills__items img {
+    width: 40px;
+}
+
+.skills__items p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.education {
+    background: #242240;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.education h2 {
+    color: #fff;
+}
+
+.education__items {
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #B7D4FF;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.education__items p {
+    text-align: center;
+}
+
+.education__years {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.education__organization {
+    padding-top: 5px;
+}
+
+.projects {
+    margin-bottom: 50px;
+}
+
+.projects h2 {
+    color: #242240;
+    text-align: center;
+}
+
+.projects p {
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(97, 97, 97);
+    text-align: center;
+}
+
+.english-level h2 {
+    color: #fff;
+}
+
+.english-level {
+    background: #242240;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.english-level p {
+    padding-top: 20px;
+}
