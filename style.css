@@ -4,22 +4,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.main-content {
-    width: 100%;
+body {
+    background: #a3a3a3;
 }
 
-header {
-    background: #242240;
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .wrapper {
+    background: #ffffff;
     width: 80%;
     margin: 0 auto;
-}
-
-header .wrapper {
-    display: flex;
-    justify-content: space-between;
 }
 
 .header__portrait {
@@ -37,7 +35,6 @@ header .wrapper {
 .header_content {
     width: 500px;
     text-align: center;
-    color: #fff;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -53,9 +50,7 @@ header .wrapper {
 
 .header__contacts {
     padding-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    text-align: left;
 }
 
 .header__contacts span {
@@ -74,14 +69,21 @@ h2 {
 }
 
 .skills__items {
-    display: flex;
-    justify-content: space-between;
     width: 40%;
     margin: 30px auto 100px;
 }
 
+.skills__items ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    text-align: center;
+}
+
 .skills__items img {
     width: 40px;
+    margin-bottom: 20px;
 }
 
 .skills__items p {
@@ -92,13 +94,11 @@ h2 {
 }
 
 .education {
-    background: #242240;
-    color: #fff;
     padding-bottom: 50px;
 }
 
 .education h2 {
-    color: #fff;
+    margin-bottom: 50px;
 }
 
 .education__items {
@@ -133,21 +133,15 @@ h2 {
 }
 
 .projects p {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
     color: rgb(97, 97, 97);
     text-align: center;
 }
 
-.english-level h2 {
-    color: #fff;
-}
-
 .english-level {
-    background: #242240;
     width: 100%;
     margin: 0 auto;
-    color: white;
     text-align: center;
     font-size: 25px;
     padding-bottom: 50px;
@@ -155,4 +149,25 @@ h2 {
 
 .english-level p {
     padding-top: 20px;
+}
+
+footer {
+    background: #f0f0f0;
+    color: #000;
+    font-size: 20px;
+}
+
+footer ul {
+    padding: 70px 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    color: #000;
+}
+
+footer img {
+    width: 100px;
 }
