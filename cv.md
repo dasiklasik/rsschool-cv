@@ -1,7 +1,7 @@
 # Darya Samsonovich
-***
+
 ## Junior Frontend Developer
-***
+
 ### Contact information:
 **Email:** daryasamsonowicz@gmail.com  
 **Phone:** +375292769720  
